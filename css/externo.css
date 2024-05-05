@@ -1,0 +1,223 @@
+
+* {
+	font-family: 'calibri';
+}
+
+html,body {
+	margin: 0 auto;
+}
+
+body {
+	background-color: #497A4F;
+	text-align: justify;
+	margin: 0;
+	padding: 0;
+	max-width: 100%;
+	min-width: 50%;
+	height: auto;
+	margin: 0;
+	min-height: 100%;
+	width: 100%;
+}
+
+h1 {
+	color: white;
+	font-size: 400%;
+	padding: 4%;
+	margin: 0;
+}
+
+footer {
+	background-color: #6AA472;
+	overflow: hidden;
+	width: 100%;
+	margin-top: 20px;
+	bottom: 0;
+	margin-top: 30px;
+	/*position: fixed;*/
+}
+
+header {
+	background-color: #2F5E35;
+	padding: 0;
+	margin: 0;
+	margin-right: 0;
+	text-align: center;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h3 {
+	font-style: italic;
+	color: #F9FF76;
+}
+
+#header_plus45 {
+	text-align: center;
+}
+
+#header_plus45 img, #header_plus45 h1 {
+	display: inline-block;
+}
+#header_plus45 h1 {
+	margin-left: -3%;
+}
+
+#contacto{
+	float: left;
+	margin-left: 2%;
+	margin-bottom: 2%;
+}
+
+#contacto a {
+	color: white;
+	text-decoration: none;
+}
+
+#contacto a:hover {
+	color: #0E5711;
+	text-decoration: underline;
+}
+
+#logoMINISDEF {
+	width: 320px;
+	float: right;
+}
+
+.formulario_registro {
+	width: 400px;
+	margin: auto;
+}
+
+.formulario_registro h4 {
+	font-size: 170%;
+	margin-bottom: 3%;
+	color: white;
+}
+
+.formulario_registro p {
+	height: 5%;
+	text-align: center;
+	font-size: 100%;
+	line-height: 40px;
+}
+
+.campo {
+	width: 95%;
+	background: #92FA9F;  
+	padding: 10px;
+	border-radius: 4px;		  
+	margin-bottom: 3%;
+	border: 1px solid #2F5E35; 
+	font-size: 105%;
+	color: #2F5E35;
+}
+
+.formulario_registro div a {
+	color: white;
+	text-decoration: none;
+}
+
+.formulario_registro p a {
+	color: white;
+	text-decoration: none;
+}
+
+.formulario_registro div a:hover, .formulario_registro p a:hover {
+	color: #0E5711;
+	text-decoration: underline;
+}
+
+.boton {
+	width: 100%;
+	background: #2F5E35;
+	border: none;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 120%;
+	border-radius: 4px;
+}
+
+.opcion {
+	width: 100%;
+	background: #2F5E35;
+	padding: 12px;
+	color: white;
+	margin: 16px 0;
+	font-size: 120%;
+	display: block;
+	text-align: center;
+	text-decoration: none;
+	border: none;
+	border-radius: 4px;
+}
+
+.opcion:hover, .boton:hover {
+	color: #F9FF76;
+}
+
+.boton:hover {
+	cursor: pointer;
+}
+
+#tabla_ofertas {
+	text-align: center;
+	border-collapse: separate;	
+	justify-content: center;
+	align-items: center;
+	margin: 2% auto 0 auto; 
+	width: 80%;
+	table-layout: auto;
+}
+
+#tabla_ofertas td, #tabla_ofertas th {
+	border: 1px ridge black;
+	margin: 10px;
+	padding: 5px;
+}
+
+#tabla_ofertas th {
+	background-color: #2F5E35;			
+}
+
+#tabla_ofertas td {
+	background-color: #6AA472;		
+}
+
+#tabla_ofertas tr:hover td {
+	background-color: white;
+	cursor: default;
+}
+
+#tabla_ofertas caption {
+	font-size: 170%;
+	font-weight: bold;
+	margin-bottom: 3%;
+	color: white;
+}
+
+#si_disponible, #no_disponible {
+	width: 30px;
+}
+
+#si_enviado {
+	width: 34px;
+}
+
+#tick_verde, #tick_rojo { 
+	width: 20px;
+}
+
+.ampliar {
+	width: 101%;
+}
+
+.boton_enviar_solicitud:hover {
+	cursor: pointer;
+}
+.boton_no_disponible_solicitud:hover {
+	cursor: not-allowed;
+}
